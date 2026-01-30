@@ -15,7 +15,7 @@ const authorsData = [
 ];
 
 const Authors = () => {
-  const [authors] = useState([]);
+  const [authors] = useState(authorsData);
 
   return (
     <section className="max-w-6xl mx-auto px-4 py-10">
@@ -45,7 +45,7 @@ const Authors = () => {
           ))}
         </div>
       ) : (
-        <h2 className="text-center text-gray-500 text-xl">No authors found </h2>
+        <h2 className="text-center text-gray-500 text-xl">No authors found</h2>
       )}
     </section>
   );

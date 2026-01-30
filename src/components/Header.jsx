@@ -59,7 +59,7 @@ const Header = () => {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="md:hidden bg-gray-900 border-t border-gray-800">
+        <div className="md:hidden bg-gray-100 border-t border-gray-00">
           <ul className="flex flex-col px-4 py-3 gap-3">
             <li>
               <Link to="/authors" className="nav-link">
